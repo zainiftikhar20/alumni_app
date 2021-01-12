@@ -19,6 +19,7 @@ class Add_Student extends StatefulWidget {
 // ignore: camel_case_types
 class _Add_StudentState extends State<Add_Student> {
 
+
   String uid ;
   final auth=FirebaseAuth.instance;
   final GlobalKey<FormState>_globalKey=GlobalKey<FormState>();

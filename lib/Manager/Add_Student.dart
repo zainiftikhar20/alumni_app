@@ -27,6 +27,7 @@ class _Add_StudentState extends State<Add_Student> {
   TextEditingController numberController;
   TextEditingController emailController;
   TextEditingController pswdController;
+
   @override
   initState(){
     nameController = new TextEditingController();

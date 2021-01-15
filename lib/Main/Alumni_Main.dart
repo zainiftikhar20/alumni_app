@@ -7,6 +7,9 @@ import 'package:try_app/Refector/Head.dart';
 import 'package:try_app/Refector/Repeat_background_image.dart';
 import 'package:try_app/Refector/bd_shade.dart';
 
+import '../home.dart';
+import '../new.dart';
+
 // ignore: camel_case_types
 class Alumni_Main extends StatefulWidget {
   @override
@@ -132,7 +135,7 @@ class _Alumni_MainState extends State<Alumni_Main> {
           Transform.translate(
             offset: Offset(0.0, 361.0),
             child:
-            // Adobe XD layer: 'Mananger_button' (shape)
+            // Adobe XD layer: 'Manager_button' (shape)
             FlatButton(
               onPressed: () {
                 Navigator.push(

@@ -3,6 +3,7 @@ import 'package:try_app/Refector/Head.dart';
 import 'package:try_app/Refector/Repeat_background_image.dart';
 import 'package:try_app/Refector/bd_shade.dart';
 import 'package:try_app/Student/Chat_Student.dart';
+import '../new.dart';
 import 'file:///C:/Users/zaini/AndroidStudioProjects/alumni_app/lib/Student/SP.dart';
 import '../Refector/Alumni_Meet_Text.dart';
 import '../Refector/Student_pic.dart';
@@ -62,7 +63,7 @@ class _Student_MeetState extends State<Student_Meet>
               children: [
                 SA(),
                 SP(),
-                Chat(),
+                Chat1(),
               ],
             ),
           ]

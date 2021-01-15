@@ -9,6 +9,8 @@ import 'package:try_app/Refector/Manager_Header.dart';
 import 'package:try_app/Refector/Repeat_background_image.dart';
 import 'package:try_app/Refector/bd_shade.dart';
 import 'package:try_app/Student/Chat_Student.dart';
+import '../ManagerChat.dart';
+import '../new.dart';
 import 'ShowPostData.dart';
 
 
@@ -71,7 +73,7 @@ class _Post_activityState extends State<Post_activity>
           children: [
             ShowAnnouncementData(),
             ShowPostData(),
-            Chat(),
+            Manager_Chat(),
           ],
         ),
   ]

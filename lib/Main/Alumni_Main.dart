@@ -1,11 +1,8 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:try_app/Admin/Admin_page.dart';
 import 'package:try_app/Login_Pages/Admin_Login.dart';
 import 'package:try_app/Login_Pages/Manager_Login.dart';
 import 'package:try_app/Login_Pages/Student_Login.dart';
-import 'package:try_app/Manager/Manager_page.dart';
-import '../Student/Student_Meet.dart';
 import 'package:try_app/Refector/Head.dart';
 import 'package:try_app/Refector/Repeat_background_image.dart';
 import 'package:try_app/Refector/bd_shade.dart';

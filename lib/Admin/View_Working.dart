@@ -25,7 +25,7 @@ class _View_WorkingState extends State<View_Working>
 
     Tab(icon: Icon(Icons.announcement), text: 'ANNOUNCEMENTS', ),
     Tab(icon: Icon(Icons.post_add), text: 'POST'),
-    Tab(icon: Icon(Icons.chat), text: 'CHAT'),
+
 
 
   ];
@@ -33,7 +33,7 @@ class _View_WorkingState extends State<View_Working>
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(vsync: this, initialIndex: 0, length: 3);
+    _tabController = TabController(vsync: this, initialIndex: 0, length: 2);
     _tabController.addListener(() {
       setState(() {});
     });
@@ -60,7 +60,7 @@ class _View_WorkingState extends State<View_Working>
               children: [
                 SA(),
                 SP(),
-                Chat(),
+
               ],
             ),
           ]

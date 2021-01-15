@@ -150,7 +150,7 @@ class _ShowPDataState extends State<ShowPData> {
 
 
         width: 3700.0,
-        height: 900.0,
+        height: 580.0,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(30.0),
           color: const Color(0x99211f1f),

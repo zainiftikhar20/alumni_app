@@ -8,6 +8,7 @@ import 'package:try_app/Refector/Head.dart';
 import 'package:try_app/Refector/Manager_Header.dart';
 import 'package:try_app/Refector/Repeat_background_image.dart';
 import 'package:try_app/Refector/bd_shade.dart';
+import 'package:try_app/Student/Chat_Student.dart';
 import 'ShowPostData.dart';
 
 
@@ -32,13 +33,13 @@ class _Post_activityState extends State<Post_activity>
 
     Tab(icon: Icon(Icons.announcement), text: 'ANNOUNCEMENTS', ),
     Tab(icon: Icon(Icons.post_add), text: 'POST'),
-
+    Tab(icon: Icon(Icons.chat), text: 'CHAT'),
   ];
 
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(vsync: this, initialIndex: 0, length: 2);
+    _tabController = TabController(vsync: this, initialIndex: 0, length: 3);
     _tabController.addListener(() {
       if (_tabController.index == 0) {
         showFab = true;
@@ -70,6 +71,7 @@ class _Post_activityState extends State<Post_activity>
           children: [
             ShowAnnouncementData(),
             ShowPostData(),
+            Chat(),
           ],
         ),
   ]
@@ -193,7 +195,7 @@ class _ShowAnnouncementDataState extends State<ShowAnnouncementData> {
 
 
           width: 3700.0,
-          height: 900.0,
+          height: 580.0,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(30.0),
             color: const Color(0x99211f1f),
